@@ -1,221 +1,139 @@
+<!-- ========================================================== -->
+<!--                 💬 SENTIMENT ANALYSIS PROJECT              -->
+<!-- ========================================================== -->
 
-<!-- ============================================================= -->
-<!--                   SENTIMENT ANALYSIS PROJECT                  -->
-<!-- ============================================================= -->
-
-<h1 align="center">💬 Sentiment Analysis • Data Analysis × NLP</h1>
+<h1 align="center">💬 Sentiment Analysis</h1>
+<h3 align="center">Data Analysis × Natural Language Processing</h3>
 
 <p align="center">
-<em>Turning language into logic, emotions into insights.</em>
+Turning unstructured language into measurable emotional insight.
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/STATUS-Active-success?style=flat-square"/>
-<img src="https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python"/>
-<img src="https://img.shields.io/badge/NLP-Enabled-purple?style=flat-square"/>
-<img src="https://img.shields.io/badge/Streamlit-Dashboard-red?style=flat-square&logo=streamlit"/>
+<img src="https://img.shields.io/badge/STATUS-Active-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/NLP-Enabled-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit"/>
 </p>
 
 ---
 
-# 🧭 PROJECT MAP
+## 🧭 Overview
 
-```
+> Human language is emotional. Machines understand numbers.  
+> This project builds the bridge between them.
 
-INPUT TEXT
-│
-▼
-[ Text Cleaning ]
-│
-▼
-[ NLP Processing ]
-│
-▼
-[ Sentiment Classification ]
-│
-▼
-[ Data Analysis ]
-│
-▼
-[ Visualization + Dashboard ]
-
-```
+This project analyzes textual data using **Natural Language Processing (NLP)** and **Data Analysis** techniques to detect sentiment polarity and visualize emotional patterns through an interactive dashboard.
 
 ---
 
-# 🌌 WHAT THIS PROJECT DOES
+## 🔄 System Flow
 
-Human language is messy, emotional, and unpredictable.  
-This project converts raw textual opinions — reviews, comments, and social media posts — into structured analytical insights using:
+Input Text
+   │
+   ▼
+Text Cleaning
+   │
+   ▼
+NLP Processing
+   │
+   ▼
+Sentiment Classification
+   │
+   ▼
+Data Analysis
+   │
+   ▼
+Visualization Dashboard
 
-```
+🎯 Project Goals
+✔ Clean noisy real-world text
+✔ Apply NLP preprocessing
+✔ Detect sentiment polarity
+✔ Perform exploratory analysis
+✔ Generate visual insights
+✔ Build interactive UI
 
-Data Analysis  +  Natural Language Processing  =  Sentiment Intelligence
+## ⚙️ Tech Stack
 
-```
+### 🧠 Core Language
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-The system reads text, understands tone, assigns sentiment, and visualizes emotional patterns.
+### 📊 Data Analysis
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
 
----
+### 🗣 NLP
+![NLTK](https://img.shields.io/badge/NLTK-NLP-green?style=for-the-badge)
+![TextBlob](https://img.shields.io/badge/TextBlob-Sentiment-purple?style=for-the-badge)
 
-# 🎯 MISSION OBJECTIVES
+### 🤖 Machine Learning
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn)
 
-```
+### 📈 Visualization
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-DataViz-blue?style=for-the-badge)
 
-✓ Clean real-world text data
-✓ Apply NLP preprocessing
-✓ Detect sentiment polarity
-✓ Perform exploratory analysis
-✓ Visualize emotional trends
-✓ Build interactive dashboard
+### ☁ Interface
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
 
-````
+### 🛠 Tools
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
 
----
 
-# ⚙️ TECH ECOSYSTEM
-
-| Layer | Technology |
-|------|------------|
-| Language | Python |
-| Data Layer | Pandas • NumPy |
-| NLP Engine | NLTK • TextBlob |
-| ML Support | Scikit-learn |
-| Visualization | Matplotlib • Seaborn |
-| Text Visualization | WordCloud |
-| Interface | Streamlit |
-| Environment | VS Code • Git |
-
----
-
-# 🏗 SYSTEM STRUCTURE
-
-```bash
+🏗 Project Structure
 sentiment-analysis/
 │
-├── data/          # Raw datasets
-├── notebooks/     # Experiments & EDA
-├── src/           # Core logic
-│   ├── preprocess.py
-│   └── sentiment.py
-├── visuals/       # Charts & outputs
-├── app.py         # Streamlit UI
+├── data/              # Dataset files
+├── notebooks/         # EDA experiments
+├── src/
+│   ├── preprocess.py  # Text cleaning logic
+│   └── sentiment.py   # Sentiment prediction
+│
+├── visuals/           # Generated charts
+├── app.py             # Streamlit dashboard
 ├── requirements.txt
 └── README.md
-````
 
----
+## ⚙️ Tech Stack Architecture
+Python
+↓
+Pandas • NumPy → Data Processing
+↓
+NLTK • TextBlob → NLP Engine
+↓
+Scikit-learn → Modeling Support
+↓
+Matplotlib • Seaborn • WordCloud → Visualization
+↓
+Streamlit → Interactive Dashboard
 
-# 🧠 NLP PIPELINE
+## ⚙️ Tech Stack
 
-```python
-Text Input
-   ↓
-Lowercase Conversion
-   ↓
-Punctuation Removal
-   ↓
-Stopword Filtering
-   ↓
-Tokenization
-   ↓
-Sentiment Scoring
-   ↓
-Label Assignment
-```
+### 🐍 Language
+- Python
 
-Outputs:
+### 📊 Data Processing
+- Pandas
+- NumPy
 
-```
-😊 Positive
-😐 Neutral
-😡 Negative
-```
+### 🧠 NLP
+- NLTK
+- TextBlob
 
----
+### 🤖 Machine Learning
+- Scikit-learn
 
-# 📊 ANALYTICS CAPABILITIES
+### 📈 Visualization
+- Matplotlib
+- Seaborn
+- WordCloud
 
-* Sentiment distribution visualization
-* Keyword frequency analysis
-* WordCloud generation
-* Trend discovery
-* Emotional pattern insights
+### 🌐 Interface
+- Streamlit
 
----
-
-# 🌐 DASHBOARD EXPERIENCE
-
-Users can:
-
-```
-→ Enter custom text
-→ Predict sentiment instantly
-→ View live charts
-→ Explore visual insights
-```
-
-Powered by **Streamlit** interactive interface.
-
----
-
-# ▶️ RUN LOCALLY
-
-## Clone Repository
-
-```bash
-git clone <repo-link>
-cd sentiment-analysis
-```
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## Launch App
-
-```bash
-streamlit run app.py
-```
-
-Open:
-
-```
-http://localhost:8501
-```
-
----
-
-# 🔍 QUESTIONS THIS PROJECT ANSWERS
-
-* Are customers satisfied?
-* How does sentiment evolve over time?
-* Which words drive negativity?
-* Do ratings match emotions?
-
----
-
-# 🚀 FUTURE ROADMAP
-
-```
-[ ] Deep Learning Models (LSTM / Transformers)
-[ ] Real-time Twitter API analysis
-[ ] Model comparison dashboard
-[ ] Cloud deployment
-```
-
----
-
-# 👩‍💻 AUTHOR
-
-SONAKSHI PADHI
-Data Analysis • NLP Explorer
-
----
-
-<p align="center">
-✨ From words to wisdom — where data learns emotion.
-</p>
-```
+### 🛠 Development Tools
+- VS Code
+- Git
+  
