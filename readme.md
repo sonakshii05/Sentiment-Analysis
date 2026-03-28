@@ -10,7 +10,7 @@ Turning unstructured language into measurable emotional insight.
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/STATUS-Active-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STATUS-progress-success?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python"/>
 <img src="https://img.shields.io/badge/NLP-Enabled-purple?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit"/>
@@ -221,3 +221,13 @@ Move beyond polarity into emotions like joy, anger, fear, and surprise.
 </tr>
 </table>
 
+## 👩‍💻 Author
+
+<p align="center">
+
+**Sonakshi Padhi**  
+_Data Analysis • NLP Explorer_
+
+💡 Turning data into insight, and language into understanding.
+
+</p>
