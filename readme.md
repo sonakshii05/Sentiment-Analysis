@@ -98,31 +98,16 @@ sentiment-analysis/
 
 ## ⚙️ Tech Stack Architecture
 
-<p align="center">
+| Layer | Stack |
+|------|------|
+| 🐍 Language | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| 📊 Data Processing | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy) |
+| 🧠 NLP Engine | ![NLTK](https://img.shields.io/badge/NLTK-green?style=flat-square) ![TextBlob](https://img.shields.io/badge/TextBlob-purple?style=flat-square) |
+| 🤖 ML Support | ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn) |
+| 📈 Visualization | ![Matplotlib](https://img.shields.io/badge/Matplotlib-blue?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-blue?style=flat-square) |
+| 🌐 Dashboard | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit) |
 
-<img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
-<br>⬇️<br>
-
-<img src="https://img.shields.io/badge/Data%20Processing-Pandas%20•%20NumPy-150458?style=for-the-badge&logo=pandas"/>
-
-<br>⬇️<br>
-
-<img src="https://img.shields.io/badge/NLP%20Engine-NLTK%20•%20TextBlob-purple?style=for-the-badge"/>
-
-<br>⬇️<br>
-
-<img src="https://img.shields.io/badge/ML%20Support-Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn"/>
-
-<br>⬇️<br>
-
-<img src="https://img.shields.io/badge/Visualization-Matplotlib%20•%20Seaborn%20•%20WordCloud-blue?style=for-the-badge"/>
-
-<br>⬇️<br>
-
-<img src="https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit"/>
-
-</p>
 ## ⚙️ Tech Stack
 
 ### 🐍 Language
