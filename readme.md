@@ -47,11 +47,17 @@ Data Analysis
 Visualization Dashboard
 
 🎯 Project Goals
+
 ✔ Clean noisy real-world text
+
 ✔ Apply NLP preprocessing
+
 ✔ Detect sentiment polarity
+
 ✔ Perform exploratory analysis
+
 ✔ Generate visual insights
+
 ✔ Build interactive UI
 
 ## ⚙️ Tech Stack
@@ -94,24 +100,17 @@ Visualization Dashboard
 
 sentiment-analysis/
 │
-├── 📁 data/          → raw datasets
-
-├── 📁 notebooks/     → EDA & experimentation
-
-├── 📁 src/           → core NLP pipeline
-
-│   ├── preprocess.py → text cleaning
-
-│   └── sentiment.py  → sentiment classification
-
+├── 📁 data/              → raw datasets
+├── 📁 notebooks/         → EDA & experimentation
+├── 📁 src/               → core NLP pipeline
+│   ├── 🧹 preprocess.py  → text cleaning
+│   └── 🧠 sentiment.py   → sentiment classification
 │
-├── 📁 visuals/       → charts & outputs
+├── 📁 visuals/           → charts & outputs
+├── 🌐 app.py             → Streamlit dashboard
+├── 📦 requirements.txt   → dependencies
+└── 📄 README.md
 
-├── app.py            → Streamlit dashboard
-
-├── requirements.txt  → dependencies
-
-└── README.md         → project documentation
 
 ## ⚙️ Tech Stack Architecture
 
