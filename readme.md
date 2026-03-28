@@ -97,18 +97,32 @@ sentiment-analysis/
 └── README.md
 
 ## ⚙️ Tech Stack Architecture
-Python
-↓
-Pandas • NumPy → Data Processing
-↓
-NLTK • TextBlob → NLP Engine
-↓
-Scikit-learn → Modeling Support
-↓
-Matplotlib • Seaborn • WordCloud → Visualization
-↓
-Streamlit → Interactive Dashboard
 
+<p align="center">
+
+<img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+
+<br>⬇️<br>
+
+<img src="https://img.shields.io/badge/Data%20Processing-Pandas%20•%20NumPy-150458?style=for-the-badge&logo=pandas"/>
+
+<br>⬇️<br>
+
+<img src="https://img.shields.io/badge/NLP%20Engine-NLTK%20•%20TextBlob-purple?style=for-the-badge"/>
+
+<br>⬇️<br>
+
+<img src="https://img.shields.io/badge/ML%20Support-Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn"/>
+
+<br>⬇️<br>
+
+<img src="https://img.shields.io/badge/Visualization-Matplotlib%20•%20Seaborn%20•%20WordCloud-blue?style=for-the-badge"/>
+
+<br>⬇️<br>
+
+<img src="https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit"/>
+
+</p>
 ## ⚙️ Tech Stack
 
 ### 🐍 Language
