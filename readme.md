@@ -2,7 +2,7 @@
 <!--                 💬 SENTIMENT ANALYSIS PROJECT              -->
 <!-- ========================================================== -->
 
-<h1 align="center">💬 Sentiment Analysis</h1>
+<h1 align="center">💬 EmotionDecoder Analysis</h1>
 <h3 align="center">Data Analysis × Natural Language Processing</h3>
 
 <p align="center">
