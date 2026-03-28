@@ -82,20 +82,35 @@ Visualization Dashboard
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
 
 
+## 🔍 Questions This Project Answers
+
+![Customer Satisfaction](https://img.shields.io/badge/Insight-Customer%20Satisfaction-blue?style=for-the-badge)
+![Sentiment Trends](https://img.shields.io/badge/Insight-Sentiment%20Evolution-purple?style=for-the-badge)
+![Negative Keywords](https://img.shields.io/badge/Insight-Negativity%20Drivers-red?style=for-the-badge)
+![Rating Analysis](https://img.shields.io/badge/Insight-Rating%20vs%20Emotion-green?style=for-the-badge)
+
 ## 🏗 Project Structure
 
 
 sentiment-analysis/
 │
 ├── 📁 data/          → raw datasets
+
 ├── 📁 notebooks/     → EDA & experimentation
+
 ├── 📁 src/           → core NLP pipeline
+
 │   ├── preprocess.py → text cleaning
+
 │   └── sentiment.py  → sentiment classification
+
 │
 ├── 📁 visuals/       → charts & outputs
+
 ├── app.py            → Streamlit dashboard
+
 ├── requirements.txt  → dependencies
+
 └── README.md         → project documentation
 
 ## ⚙️ Tech Stack Architecture
